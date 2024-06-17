@@ -1,0 +1,72 @@
+div{
+    width:30%;
+    height:fit-content;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    top:0%;
+    margin-top: 20px;
+    margin-left: 39%;
+    border-radius: 5px;
+    border-style: ridge;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    
+}
+form{
+    
+    display:block;
+     gap:10px ;
+     margin: 80px;
+     padding: 10px;
+}
+input{
+    position: relative;
+    width: 200px;
+    height:20px;
+   text-overflow: clip;
+   background: transparent;
+   border-radius: 5px;
+   border-style: groove;
+   border-color: aliceblue;
+   justify-content: center;
+   display: grid;
+   row-gap: 50px;
+}
+label{
+    color: white;
+}
+button{
+   width: 200px;
+   height: 25px;
+   position: inherit;
+   border-radius: 5px;
+   display: grid;
+  background-color: aqua;
+  border-style: none;
+  cursor: pointer;
+  align-items: center;
+}
+h2{
+ text-align: center;
+ font-weight: 500;
+ color:white;
+ font-family: 'Times New Roman', Times, serif;
+ 
+}
+h2>hr{
+    width: auto;
+ content: ' ';
+ visibility: visible;
+ border-color: black;
+}
+#btn1{
+ background-color: red;
+}
+#btn2{
+    background-color: blue;
+   }
+   body{
+    
+   }
